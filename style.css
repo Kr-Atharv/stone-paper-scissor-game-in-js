@@ -65,3 +65,52 @@ img{
     border-radius: 1rem;
 
 }
+/* Responsive design for phones */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+    height: auto;
+    line-height: normal;
+    padding: 1rem 0;
+  }
+
+  .choices {
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .choice {
+    width: 110px;
+    height: 110px;
+  }
+
+  .choice img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .scorecard {
+    flex-direction: column;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  #comp,
+  #you {
+    font-size: 2.5rem;
+  }
+
+  .msg-container {
+    margin-top: 2rem;
+  }
+
+  #msg {
+    font-size: 1.2rem;
+    padding: 0.8rem 1.2rem;
+    max-width: 90%;
+    word-wrap: break-word;
+    display: inline-block;
+  }
+}
